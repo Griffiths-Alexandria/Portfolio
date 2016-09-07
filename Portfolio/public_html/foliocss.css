@@ -1,0 +1,182 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    position: relative;
+    height:100%;
+    background-color: gainsboro; 
+
+}
+
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: background .25s ease-in-out,padding .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out,padding .25s ease-in-out;
+    transition: background .25s ease-in-out,padding .25s ease-in-out;
+}
+
+#navsections {
+    float: right;
+}
+
+.top-nav-collapse {
+    padding: 0;
+}
+
+#Miriam {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
+.portpic {
+    padding-top: 25px;
+}
+
+.portpic img{
+    border-radius: 150px;
+    width: 200px; 
+    border: #747D7D solid 10px;
+
+}
+
+#welcome {
+    padding-top: 60px; 
+    height: 650px; 
+    text-align: center;
+    background-image: url('images/placeholder1.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+#welcome h1 {
+    padding-top: 100px;
+    font-size: 80px;
+    color: teal; 
+    font-family: 'Sacramento', cursive;
+}
+
+#section1 {
+    padding-top: 40px; 
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#section1 h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+#section1 p {
+    float: right;
+}
+
+#section1 img {
+    opacity: 1;
+    width: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border: black solid 2px;
+}
+
+#section1 a {
+    text-decoration: none; 
+    font-size: 15px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+   
+}
+
+#section2 {
+    padding-top: 40px; 
+    position: relative;
+    background-color: #747D7D; 
+}
+
+#section2 h1 {
+    font-family: 'Sacramento', cursive;
+    color: gainsboro;
+}
+
+#section2 p {
+    float: right;
+}
+
+#section3 {
+    padding-top: 40px; 
+    background-color: #bac9ca;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#section3 img {
+    opacity: 1;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border: black solid 2px;
+}
+
+#section3 h1 {
+    font-family: 'Sacramento', cursive;
+    color: black;  
+}
+
+#section3 p {
+    text-align: center; 
+}
+
+#section3 a {
+    text-decoration: none; 
+    font-size: 15px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+   
+}
+
+#section4 {
+    padding-top: 40px; 
+    position: relative;
+}
+
+#section4 h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+#section4 p {
+    float: right;
+}
+
+.skills {
+    padding-top: 40px;
+}
+
+#section5 {
+    padding-top: 40px; 
+    position: relative;
+}
+
+#section5 h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+#section5 p {
+    float: right;
+}
+
+#section6 {
+    padding-top: 40px; 
+    position: relative;
+}
+
+#section6 h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+#section6 p {
+    float: right;
+}
+
+footer {
+    height: 100px;
+    background-color: teal; 
+}

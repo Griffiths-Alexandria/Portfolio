@@ -6,11 +6,173 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Alexandria Lenz Design and Development</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href='foliocss.css'> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="https://use.fontawesome.com/ccde78beea.js"></script>
+
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Sacramento|Lato" rel="stylesheet">
     </head>
-    <body>
-        <div>TODO write content</div>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" id="page-top">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><span id="Miriam">alexlenz.com</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav" id="navsections">
+                            <li><a href="#section1" class="page-scroll">development</a></li>
+                            <li><a href="#section2" class="page-scroll">design</a></li>
+                            <li><a href="#section3" class="page-scroll">photography</a></li>
+                            <li><a href="#section4" class="page-scroll">education</a></li>
+                            <li><a href="#section5" class="page-scroll">blog</a></li>
+                            <li><a href="#section6" class="page-scroll">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="container-fluid" id="welcome">
+            <h1>Alexandria Lenz</h1>
+            <h3>WEB DEVELOPER & DESIGNER</h3>
+            <div class="col-md-12 portpic">
+                <img src="images/me.jpg" alt="me!" title="me!">
+            </div>
+        </header>
+
+        <section id="section1" class="container-fluid">
+            <h1>Development</h1>
+            <div class="col-md-12">
+                <h3>Dev Sites</h3>
+                <div class="col-md-3">
+                    <img src="images/plumsite.jpg" alt="baby"><br>
+                    <a href="http://www.testing.plumpaper.com">Plum Paper</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/plumpaper.jpg" alt="family"><br>
+                    <a href="http://support.plumpaper.com/customer/portal/emails/new">Salesforce Redesign</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/261.jpg" alt="wedding"><br>
+                    <a href="http://wwww.261portfolio.alexlenz.com">Learning Portfolio</a>
+                </div>   
+                <div class="col-md-3">
+                    <img src="images/peared.jpg" alt="wedding"><br>
+                    <a href="http://www.pearedup.alexlenz.com">PearedUp</a>
+                </div>  
+            </div>
+        </section>
+        <section id="section2" class="container-fluid">
+            <h1>Design</h1>
+            <p>enter links</p>
+        </section>
+        <section id="section3" class="container-fluid">
+            <h1>Photography</h1>
+            <div class="col-md-12">
+                <h3>Captured Arrow</h3>
+                <div class="col-md-4">
+
+                    <img src="images/photography.jpg" alt="baby"><br>
+                    <a href="http://www.capturedarrowphotography.com/Babies">Babies</a>
+                </div>
+                <div class="col-md-4">
+
+                    <img src="images/family.jpg" alt="family"><br>
+                    <a href="http://www.capturedarrowphotography.com/Family">Families</a>
+                </div>
+                <div class="col-md-4">
+
+                    <img src="images/bride.jpg" alt="wedding"><br>
+                    <a href="http://www.capturedarrowphotography.com/Weddings">Weddings</a>
+                </div>                
+            </div>
+        </section>
+        <section id="section4" class="container-fluid">
+
+            <h1>Education and Skills</h1>
+            <div class="col-md-6">
+                <h3>Brigham Young University Idaho</h3>
+                <h4>BS Web Design & Development - 2016</h4>
+                <h5>Development Emphasis 3.7 GPA</h5>
+            </div>
+            <div class="col-md-6">
+                <h3>Free Code Camp</h3>
+                <h4>Full Stack Development Certification & SE</h4>
+                <h5>In Progress</h5>
+            </div>
+            <br>
+            <div class="col-md-12 skills">
+                <p class="col-md-3">HTML5 <br>
+                    CSS <br>
+                    Github <br>
+                    Java <br>
+                    JSON <br>
+                    AJAX <br>
+                    AngularJS <br> 
+                </p>
+                <p class="col-md-3">
+                    JavaScript <br>
+                    PHP <br>
+                    Web Design <br>
+                    User Interface Design <br>
+                    SEO <br>
+                    MySQL <br>
+                    FTP Filezilla <br>
+                </p>
+                <p class="col-md-3">
+                    Adobe Creative Suite <br>
+                    WordPress <br>
+                    Image Editing <br>
+                    Photography <br>
+                    Image Manipulation <br>
+                    Graphic Design <br>
+                </p>
+                <p class="col-md-3">
+                    Google Analytics <br>
+                    Marketing <br>
+                    Social Media Marketing <br>
+                    Social Media <br>
+                    Customer Service <br>
+                </p>
+            </div>
+        </section>
+
+        <section id="section5" class="container-fluid">
+            <h1>Blog</h1>
+            <p>Enter Desc.</p>
+        </section>
+
+        <section id="section6" class="container-fluid">
+            <h1>Contact</h1>
+            <p>Enter Desc.</p>
+        </section>
+        <footer>
+
+        </footer>
     </body>
 </html>
