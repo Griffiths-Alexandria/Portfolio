@@ -154,6 +154,18 @@ body {
    
 }
 
+#section1 a:hover img{
+    opacity: .4;
+}
+
+#section2 a:hover img{
+    opacity: .4;
+}
+
+#section3 a:hover img{
+    opacity: .4;
+}
+
 #section4 {
     padding-top: 40px; 
     position: relative;
@@ -167,7 +179,7 @@ body {
 }
 
 #section4 p {
-    float: right;
+    float: left;
 }
 
 .skills {
@@ -200,6 +212,10 @@ body {
 #section6 p {
     float: right;
 }
+
+
+/*HOVER EFFECTS*/
+
 
 footer {
     height: 100px;
